@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游柏竣沒有回應</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 2rem;
+        }
+    
+        .bojun-no-response-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 80vh;
+            text-align: center;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: rgb(125, 125, 255);
+        }
+
+        .bojun-no-response-container p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            margin-bottom: 0;
+            color: #000000;
+        }
+    
+        li {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+            color: #333;
+        }
+    
+        .back-to-conversation-btn {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+    
+    
+        footer {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bojun-no-response-container">
+    <h1>游柏竣沒有回應 :（</h1>
+    <p>可能的原因：</p>
+    <ul class="bojun-no-response-list">
+        <li>檢察您的傳送的內容是否過於空泛無物，使游柏竣不知道該回覆什麼</li>
+        <li>請確定您的遣詞是否過於尖銳，傷透了游柏竣的心</li>
+        <li>游柏竣可能正在忙碌中，請耐心稍候回覆 <3</li>
+    </ul>
+    <a class="back-to-conversation-btn" href="javascript:void(0);" onclick="window.close();">返回對話</a>
+</div>
+
+<footer>
+    <p>&copy; <span id="year"></span> 游柏竣. All rights reserved.</p>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</footer>
+
+</body>
+</html>
